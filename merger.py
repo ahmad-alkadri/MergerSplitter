@@ -9,6 +9,8 @@ pdfs = fd.askopenfilenames(title = "Select the PDF files")
 
 outnamepath = fd.asksaveasfilename(title = "Name output file",
     filetypes = (("PDF files","*.pdf"),("all files","*.*")))
+    
+root.update()
 
 merger = PdfFileMerger()
 

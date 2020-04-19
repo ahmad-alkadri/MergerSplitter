@@ -7,6 +7,8 @@ root.withdraw()
 
 pdfname = fd.askopenfilename(title = "Select the PDF file")
 
+root.update()
+
 inputpdf = PdfFileReader(open(pdfname, 
     "rb"))
 
